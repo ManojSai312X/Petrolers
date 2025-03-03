@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Petrol</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="petrol.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="petrol-container">
+        <h1>Request Petrol</h1>
+        <p>Your current location: <span id="userLocation"></span></p>
+        <div id="map"></div>
+        <label for="litres">Select Litres:</label>
+        <input type="number" id="litres" min="1" max="50" placeholder="Litres" required>
+        <button id="confirmRequest">Confirm Request</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
